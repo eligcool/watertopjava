@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.ac.iie.watertop.dao.ImageinfoMapper">
+  <resultMap id="BaseResultMap" type="cn.ac.iie.watertop.model.Imageinfo">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="infotags" jdbcType="VARCHAR" property="infotags" />
+    <result column="title" jdbcType="VARCHAR" property="title" />
+    <result column="newstime" jdbcType="TIMESTAMP" property="newstime" />
+    <result column="picsize" jdbcType="VARCHAR" property="picsize" />
+    <result column="filesize" jdbcType="VARCHAR" property="filesize" />
+    <result column="width" jdbcType="DOUBLE" property="width" />
+    <result column="height" jdbcType="DOUBLE" property="height" />
+    <result column="picurl" jdbcType="VARCHAR" property="picurl" />
+    <result column="befrom" jdbcType="VARCHAR" property="befrom" />
+    <result column="picsay" jdbcType="VARCHAR" property="picsay" />
+    <result column="classid" jdbcType="INTEGER" property="classid" />
+    <result column="state" jdbcType="INTEGER" property="state" />
+  </resultMap>
+</mapper>

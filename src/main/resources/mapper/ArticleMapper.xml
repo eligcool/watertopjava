@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.ac.iie.watertop.dao.ArticleMapper">
+  <resultMap id="BaseResultMap" type="cn.ac.iie.watertop.model.Article">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="crawler" jdbcType="VARCHAR" property="crawler" />
+    <result column="title" jdbcType="VARCHAR" property="title" />
+    <result column="keyword" jdbcType="VARCHAR" property="keyword" />
+    <result column="befrom" jdbcType="VARCHAR" property="befrom" />
+    <result column="editor" jdbcType="VARCHAR" property="editor" />
+    <result column="classifier" jdbcType="VARCHAR" property="classifier" />
+    <result column="titleurl" jdbcType="VARCHAR" property="titleurl" />
+    <result column="isTop" jdbcType="INTEGER" property="istop" />
+    <result column="isCheck" jdbcType="INTEGER" property="ischeck" />
+    <result column="publishTime" jdbcType="TIMESTAMP" property="publishtime" />
+    <result column="insertTime" jdbcType="TIMESTAMP" property="inserttime" />
+    <result column="updateTime" jdbcType="TIMESTAMP" property="updatetime" />
+    <result column="classid" jdbcType="INTEGER" property="classid" />
+    <result column="datafrom" jdbcType="VARCHAR" property="datafrom" />
+    <result column="firsttitle" jdbcType="VARCHAR" property="firsttitle" />
+    <result column="isgood" jdbcType="VARCHAR" property="isgood" />
+    <result column="newstime" jdbcType="TIMESTAMP" property="newstime" />
+    <result column="nlist" jdbcType="VARCHAR" property="nlist" />
+    <result column="onclick" jdbcType="VARCHAR" property="onclick" />
+    <result column="playonlineurl" jdbcType="VARCHAR" property="playonlineurl" />
+    <result column="playtime" jdbcType="TIMESTAMP" property="playtime" />
+    <result column="plnum" jdbcType="INTEGER" property="plnum" />
+    <result column="ptitlepic" jdbcType="VARCHAR" property="ptitlepic" />
+    <result column="time" jdbcType="TIMESTAMP" property="time" />
+    <result column="titlepic" jdbcType="VARCHAR" property="titlepic" />
+    <result column="titlepic2" jdbcType="VARCHAR" property="titlepic2" />
+    <result column="titlepic3" jdbcType="VARCHAR" property="titlepic3" />
+    <result column="newstext" jdbcType="LONGVARCHAR" property="newstext" />
+  </resultMap>
+
+
+</mapper>

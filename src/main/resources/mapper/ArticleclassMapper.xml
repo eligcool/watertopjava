@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.ac.iie.watertop.dao.ArticleclassMapper">
+  <resultMap id="BaseResultMap" type="cn.ac.iie.watertop.model.Articleclass">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="classid" jdbcType="INTEGER" property="classid" />
+    <result column="classname" jdbcType="VARCHAR" property="classname" />
+    <result column="classpath" jdbcType="VARCHAR" property="classpath" />
+    <result column="showclass" jdbcType="VARCHAR" property="showclass" />
+  </resultMap>
+
+
+</mapper>
